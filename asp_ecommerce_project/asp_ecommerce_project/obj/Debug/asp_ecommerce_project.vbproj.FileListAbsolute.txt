@@ -1,0 +1,8 @@
+D:\e_commerce_website\asp_ecommerce_project\asp_ecommerce_project\bin\asp_ecommerce_project.dll
+D:\e_commerce_website\asp_ecommerce_project\asp_ecommerce_project\bin\asp_ecommerce_project.pdb
+D:\e_commerce_website\asp_ecommerce_project\asp_ecommerce_project\bin\asp_ecommerce_project.xml
+D:\e_commerce_website\asp_ecommerce_project\asp_ecommerce_project\obj\Debug\asp_ecommerce_project.Resources.resources
+D:\e_commerce_website\asp_ecommerce_project\asp_ecommerce_project\obj\Debug\asp_ecommerce_project.vbproj.GenerateResource.Cache
+D:\e_commerce_website\asp_ecommerce_project\asp_ecommerce_project\obj\Debug\asp_ecommerce_project.dll
+D:\e_commerce_website\asp_ecommerce_project\asp_ecommerce_project\obj\Debug\asp_ecommerce_project.xml
+D:\e_commerce_website\asp_ecommerce_project\asp_ecommerce_project\obj\Debug\asp_ecommerce_project.pdb
