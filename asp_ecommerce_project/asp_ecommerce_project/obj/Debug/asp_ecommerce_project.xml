@@ -14,6 +14,14 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:asp_ecommerce_project.Register1.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:asp_ecommerce_project.Register1.TextBox2">
 	<summary>
 TextBox2 control.
@@ -30,14 +38,6 @@ TextBox3 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:asp_ecommerce_project.Register1.TextBox4">
-	<summary>
-TextBox4 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
 </member><member name="F:asp_ecommerce_project.Register1.DropDownList1">
 	<summary>
 DropDownList1 control.
@@ -46,9 +46,9 @@ DropDownList1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:asp_ecommerce_project.Register1.TextBox8">
+</member><member name="F:asp_ecommerce_project.Register1.TextBox4">
 	<summary>
-TextBox8 control.
+TextBox4 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -81,6 +81,14 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:asp_ecommerce_project.Register1.Button1">
 	<summary>
 Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:asp_ecommerce_project.Register1.Label1">
+	<summary>
+Label1 control.
 </summary>
 	<remarks>
 Auto-generated field.

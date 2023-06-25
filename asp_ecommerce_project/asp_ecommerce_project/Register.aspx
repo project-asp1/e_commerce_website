@@ -5,131 +5,97 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style type="text/css">
-        .style1
-        {
-            width: 100%;
-            height: 679px;
-        }
-        .style3
-        {
-            height: 85px;
-        }
-        .style4
-        {
-            width: 937px;
-        }
-        .style5
-        {
-            height: 85px;
-            width: 937px;
-        }
-        .style6
-        {
-            width: 937px;
-            height: 45px;
-        }
-        .style7
-        {
-            height: 45px;
-        }
-        .style8
-        {
-            width: 937px;
-            height: 71px;
-        }
-        .style9
-        {
-            height: 71px;
-        }
-    </style>
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
-    
-    </div>
-    <table class="style1">
+    <table align="center" 
+        style=" width: 700px; height: 600px; background-color: #C0C0C0;">
         <tr>
-            <td  align="center" class="style4">
-               <h2>Registration Page</h2></td>
-            
-        </tr>
-        <tr>
-            <td class="style5">
-               <b> First Name:</b></td>
-            <td class="style3">
-                <asp:TextBox ID="TextBox2" runat="server" Height="54px" Width="271px"></asp:TextBox>
+            <td align="center" class="auto-style1" colspan="2">
+                <h2>
+                    Registeration Page</h2>
             </td>
         </tr>
         <tr>
-            <td class="style4">
-                <b> Last Name:</b></td>
+            <td style="width:50%">
+                <b>First Name:</b></td>
             <td>
-                <asp:TextBox ID="TextBox3" runat="server" Height="54px" Width="271px"></asp:TextBox>
+                <asp:TextBox ID="TextBox1" runat="server" Height="54px" Width="270px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="style4">
-               <b> Email_ID:</b></td>
+            <td style="width:50%">
+                <b>Last Name:</b></td>
             <td>
-                <asp:TextBox ID="TextBox4" runat="server" Height="54px" Width="271px"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" Height="54px" Width="270px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="style6">
-                <b> Gender:</b></td>
-            <td class="style7">
-                <asp:DropDownList ID="DropDownList1" runat="server" Height="33px" 
-                    style="margin-bottom: 0px" Width="270px">
+            <td style="width:50%">
+                <b>Email_ID:</b></td>
+            <td >
+                <asp:TextBox ID="TextBox3" runat="server" Height="54px" TextMode="MultiLine" 
+                    Width="270px"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:50%">
+                <b>Gender:</b></td>
+            <td >
+                <asp:DropDownList ID="DropDownList1" runat="server" Height="16px" Width="275px">
+                    <asp:ListItem>Select Gender</asp:ListItem>
+                    <asp:ListItem>Male</asp:ListItem>
+                    <asp:ListItem>Female</asp:ListItem>
+                    <asp:ListItem>Other</asp:ListItem>
                 </asp:DropDownList>
             </td>
         </tr>
         <tr>
-           <td class="style4">
-                <b> Address:</b></td>
-           
-             <td>
-                 <asp:TextBox ID="TextBox8" runat="server" Height="54px" Width="271px"></asp:TextBox>
-            </td>
-        </tr>
-        <tr>
-            <td class="style4">
-                <b> Phone_No :</b></td>
+            <td style="width:50%">
+                <b>Address:</b></td>
             <td>
-                <asp:TextBox ID="TextBox5" runat="server" Height="54px" Width="271px"></asp:TextBox>
+                <asp:TextBox ID="TextBox4" runat="server" Height="54px" Width="270px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="style8">
-                <b> Password:</b></td>
-            <td class="style9">
-                <asp:TextBox ID="TextBox6" runat="server" Height="54px" Width="271px"></asp:TextBox>
+            <td style="width:50%">
+                <b>Phone_No :</b></td>
+            <td >
+                <asp:TextBox ID="TextBox5" runat="server" Height="54px" Width="270px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="style4">
+            <td style="width:50%">
+                <b>Password:</b></td>
+            <td >
+                <asp:TextBox ID="TextBox6" runat="server" Height="54px" TextMode="Password" 
+                    Width="270px"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:50%">
                 <b>Confirm Password:</b></td>
-            <td>
-                <asp:TextBox ID="TextBox7" runat="server" Height="54px" Width="271px"></asp:TextBox>
+            <td >
+                <asp:TextBox ID="TextBox7" runat="server" Height="54px" TextMode="Password" 
+                    Width="270px"></asp:TextBox>
             </td>
         </tr>
-         <tr>
-            <td class="style4">
-                <b>
-                <asp:Button ID="Button1" runat="server" Text="Button" />
-                </b></td>
-            <td>
+        <tr>
+            <td align="center" colspan="2">
+                <asp:Button ID="Button1" runat="server" Font-Bold="True" Font-Size="Large" 
+                    Height="51px" Text="Register" Width="230px" />
+            </td>
+            <td >
                 &nbsp;</td>
         </tr>
-         <tr>
-            <td class="style4">
-                <b></b></td>
-            <td>
-                &nbsp;</td>
+        <tr>
+            <td colspan="2">
+                <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+            </td>
         </tr>
-       
     </table>
+    </div>
     </form>
 </body>
 </html>
